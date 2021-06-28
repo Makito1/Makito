@@ -36,7 +36,7 @@ header nav a{
 
 
 header nav a:hover {
-  color:#AAAAAA;
+  color:#CCCCCC;
   border-bottom: #919191 solid 1px;
 }
 
@@ -142,6 +142,12 @@ footer .social-media p{
   width: 20px;
   cursor:pointer;
 }
+
+footer .social-media a{
+ text-decoration: none;
+ color: white;
+}
+
 
 @media screen and (max-width: 810px){
   .actualité .gauche{
