@@ -146,6 +146,11 @@ footer .social-media p{
   cursor:pointer;
 }
 
+footer .social-media a{
+ text-decoration: none;
+ color: white;
+}
+
 
 /*la scrollbar*/
  ::-webkit-scrollbar {  /*permet de modifier le style de la scrollbar*/
