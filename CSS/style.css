@@ -4,6 +4,12 @@ html{
   scroll-behavior:smooth;
 }
 
+body::-webkit-scrollbar {
+ 
+    display: none;
+ 
+}
+
 body{
   margin: 0;
   padding:0;
