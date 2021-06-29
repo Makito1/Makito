@@ -47,7 +47,7 @@ header .principal{
   justify-content:center;
 }
 header .principal h1{
-  font-size:120px;
+  font-size:max(10vw, 90px);
 }
 header .principal h4{
   margin-top: -80px;
