@@ -75,6 +75,12 @@ header .principal h4{
 	font-size:25px;
 }
 
+.actualité .droite img{
+  width: 100%;
+  max-width:700px;
+  min-width:400px;
+}
+
 .guides{
   padding:30px;
   background: white;
