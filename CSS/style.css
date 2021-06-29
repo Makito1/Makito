@@ -11,7 +11,7 @@ body{
 }
 
 header{
-  height:80vh;
+  height:max(42vw, 475px);
   background: url("https://th.bing.com/th/id/R450a0898e82be6d06972fe23f9f143b5?rik=yQyMoXaAhTDjwQ&pid=ImgRaw");
   background-position: center;
   color: #000;
@@ -41,7 +41,7 @@ header nav a:hover {
 }
 
 header .principal{
-  margin-top: 100px;
+  margin-top: 75px;
   display:flex;
   flex-direction:column;
   justify-content:center;
