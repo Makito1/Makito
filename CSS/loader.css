@@ -24,8 +24,8 @@
 @media (max-width: 900px){
 	.lettre {
 	  color:#484848;
-	  font-size:40px;
-	  letter-spacing:8px;
+	  font-size:30px;
+	  letter-spacing:5px;
 	  margin-bottom:150px;
 	  animation:flash 1.2s linear infinite;
 	}
