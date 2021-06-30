@@ -108,6 +108,7 @@ header .principal h4{
 }
 
 .guides .carte img{
+  border-radius:10px;
   width:100%;
   max-width:350px;
   min-width:150px;
