@@ -17,7 +17,7 @@
 			background:url('Image/fond_motifs.jpg');
 		}
 		header{
-			background-image:url("Image/fond_zelda.jpg");
+			background-image:url("Image/fond_Zelda.jpg");
 		}
 	</style>
 	<header>
@@ -38,9 +38,24 @@
 			<p>Guide n°2 :</p>
 		    <p>The Legend Of Zelda</p>
 			<p>Breath Of The Wild</p>
-			<button class="bouton">Regarder</button>
+			<a href='#'><button class="bouton" onclick="toggle();">Regarder</button></a>
 		</div>
 	<!----------------------------->
+	<div class='trailer'>
+	<video controls>
+      <source src="video/zelda.mp4" type=video/mp4>
+    </video>
+	<img src="Image/fermer.png" class="close" onclick="toggle();">
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var trailer= document.querySelector(".trailer")
+			var video= document.querySelector("video")
+			trailer.classList.toggle("active")
+			video.pause();
+			video.currentTime=0;
+		}
+	</script>
 	<div class="about-container">
 	<!--img-->
 		<img src="Image/robot.png"/>

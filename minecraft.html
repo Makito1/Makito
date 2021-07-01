@@ -38,9 +38,24 @@
 			<p>Guide n°1 :</p>
 		    <p>Minecraft</p>
 			<p></p>
-			<button class="bouton">Regarder</button>
+			<a href='#'><button class="bouton" onclick="toggle();">Regarder</button></a>
 		</div>
 	<!----------------------------->
+	<div class='trailer'>
+	<video controls>
+      <source src="video/minecraft.mp4" type=video/mp4>
+    </video>
+	<img src="Image/fermer.png" class="close" onclick="toggle();">
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var trailer= document.querySelector(".trailer")
+			var video= document.querySelector("video")
+			trailer.classList.toggle("active")
+			video.pause();
+			video.currentTime=0;
+		}
+	</script>
 	<div class="about-container">
 	<!--img-->
 		<img src="Image/skin.png"/>

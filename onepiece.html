@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE-edge">
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
-<link rel="shortcut icon" href="Image/logo_Makito.png" type="images/x-icon"/>
+  <link rel="shortcut icon" href="Image/logo_Makito.png" type="images/x-icon"/>
 <title>Makito-One Piece</title>
 <link href='CSS/guides.css' rel='stylesheet'>
   <!--using FontAwesome---------------->
@@ -38,9 +38,24 @@
 			<p>Guide n°3 :</p>
 		    <p>One Piece</p>
 			<p>Pirate Warrior 4</p>
-			<button class="bouton">Regarder</button>
+			<a href='#'><button class="bouton" onclick="toggle();">Regarder</button></a>
 		</div>
 	<!----------------------------->
+	<div class='trailer'>
+	<video controls>
+      <source src="video/onepiece.mp4" type=video/mp4>
+    </video>
+	<img src="Image/fermer.png" class="close" onclick="toggle();">
+	</div>
+	<script type="text/javascript">
+		function toggle(){
+			var trailer= document.querySelector(".trailer")
+			var video= document.querySelector("video")
+			trailer.classList.toggle("active")
+			video.pause();
+			video.currentTime=0;
+		}
+	</script>
 	<div class="about-container">
 	<!--img-->
 		<img src="Image/luffytaro.png"/>
@@ -80,7 +95,7 @@
 		<span>3</span>
 		<p class="heading">DLC 3</p>
 		<p class="details">Obtenez 3 costumes exclusifs de l'arc Wano Kuni</p>
-		<a href=""><button>Ouvrir</button></a>
+		<a href="http://botw-recipes.com"><button>Ouvrir</button></a>
 	</div>
 	</div>
 	</div>
